@@ -1,0 +1,43 @@
+.login {
+    max-width: 400px;
+    width: 300px;
+    height: 215px;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+
+    h3 {
+        border-bottom: 1px solid #7e7e7e;
+        text-align: center;
+    }
+
+    input {
+        &[type="text"], &[type="password"], &[type="submit"] {
+            width: 98%;
+            margin: auto;
+        }
+
+        &[type="text"], &[type="password"] {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        &[type="submit"] {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+}
+
+.login-wrapper {
+    background: #e7e7e7;
+    height: 100%;
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
